@@ -49,3 +49,14 @@ while input != secret:
     print('Wrong. Try again.')
 print('You got it. :)')
 ```
+### enumerate()
+- enumerate finds and gives the indice of the given value
+- while not unique loops, it allows for iterative logic and tracking
+```python
+for price in enumerate(products.values()):
+  print(price)
+# This will return the following: (with p being price and n being its indice)
+# (0, p0)
+# (1, p1)
+# (2, p2)
+```
