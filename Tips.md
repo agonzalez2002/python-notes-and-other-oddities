@@ -23,3 +23,7 @@ instrument_1 = MusicalInstrument('Trumpet', 'brass')
 ```
 This allows for the class to be assigned parameters as soon as an object is defined as a MusicalInstrument.
 Why we don't define the parameters in the class line itself is due to the attempt to avoid AttributeErrors.
+
+# Self
+
+The 'self' parameter is used as a means to access the attribute to either access or modify it. This is done because Python, when using dot notation, automatically passes the instance object as the first argument. Defining self in a method or a class '__init__' is used to bypass this default.
